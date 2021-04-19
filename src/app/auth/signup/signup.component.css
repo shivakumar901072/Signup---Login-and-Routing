@@ -1,3 +1,24 @@
-p{
-    background-color:tomato;
+
+.container{
+    width: 1000px;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(245, 187, 220);
+    text-align: center;
+    margin-left: 150px;
 }
+#name, #password, #conformPassword {
+    height: 25px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center; 
+    
+    color: black;
+
+ }
